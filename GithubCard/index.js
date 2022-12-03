@@ -56,9 +56,11 @@
  userImage.src= data.avatar_url;
  userTitle.textContent = data.login;
  userBio.textContent = "Bio : "   +   data.bio;
- userAddress.textContent = data.url;
+ userAddress.textContent ="Address : " + data.html_url;
+ userLocation.textContent = "Location : " + data.location;
  userFollowers.textContent = " followers : " + data.followers;
  userFollowing.textContent= "Following: "   +  data.following;
+
 
 
 
